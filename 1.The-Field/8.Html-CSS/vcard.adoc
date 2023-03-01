@@ -1,0 +1,52 @@
+= Vcard
+
+// links
+:position: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+:vcard: https://tinyurl.com/ygu4o7r
+
+Type of challenge: *learning* +
+Duration: *120 min* +
+Deployment strategy: *Github page* +
+Team challenge: *solo*
+
+
+== Learning objectives
+
+At the end of this challenge you should be able to:
+
+* write better semantic *HTML*
+* use *CSS* positioning
+
+
+== The mission
+
+Now that you have *CV* you have to write  a-->le lien qui suit est ko:  {vcard}[Vcard] (virtual card), it's a
+small one page serving as a virtual business card. Create a new repository
+called _VCard_ and use as much *CSS* {position}[positioning] as possible.
+
+.Instructions
+* create the repository
+* write your *Vcard* in *HTML* and *CSS*
+* use *CSS* positioning to make a unique card
+* commit/push
+* deploy on a Github page
+
+=== Optional
+
+* add a background image
+* add gradients instead of a color pallet
+
+
+== Resources
+
+* https://www.w3schools.com/css/default.asp[CSS rules]
+* http://learnlayout.com/position.html[CSS positioning]
+* http://learnlayout.com/[CSS layout]
+
+
+== Congrats
+
+Positioning can be hard to wrap you're head around, but it's absolutely
+essential to make good looking and responsive design.
+
+image::https://media.giphy.com/media/3orif9rYseyrQXVnPy/giphy.gif[]

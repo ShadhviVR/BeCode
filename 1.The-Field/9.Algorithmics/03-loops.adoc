@@ -1,0 +1,97 @@
+= loops
+
+// Links
+:loop: https://en.wikipedia.org/wiki/Control_flow#Loops
+
+Type of challenge: *learning* +
+Duration: *90 min* +
+Team challenge: *solo*
+
+
+== Learning objectives
+
+At the end of this challenge you should:
+
+* understand the concept of loops
+* be able to write loops
+
+
+== The mission
+
+This challenge will have you play around with the concept of {loop}[loops],
+complete the exercises down below after you've read the explanations.
+
+Ever had to repeat the same instructions multiple times in a row, look no
+further than the *loops*. They allow you to execute a piece of code multiple
+time or until a condition is met.
+
+A _for loop_ is usually used if you know how many iterations you need, a _while
+loop_ iterates until a condition is met.
+
+[title="Example",subs="quotes"]
+----
+// The output will be "0 ... 9" on a new line
+*for* I = 0 *until* 9 *do* {
+	output($I)
+}
+
+// Let's drink coffee
+_integer_ nbr_coffee = 10
+_boolean_ has_coffee = true
+*while* ($has_coffee == true) *do* {
+	drink_coffee()
+	__$nbr_coffee__ = __$nbr_coffee__ - 1
+	*if* (__$nbr_coffee__ == 0) *then* {
+		__$has_coffee__ = false
+	}
+}
+----
+
+=== Exercises
+
+.Instructions
+* write your algorithm on paper
+* detail each and every step
+* indicates the types of used variables
+* One good, try to write some code!
+
+==== I - print numbers
+
+Write an algorithms which receives an integers _n_ and prints:
+
+* the numbers from 1 to _n_
+* the numbers from 1 to _n_ in descending order
+* the numbers from _-n_ to _n_
+* the odd numbers from 1 to _n_
+
+==== II - print random number of integers
+
+Write an algorithm which receives an random integer and prints from 0 to it.
+
+==== III - throw dices
+
+Write an algorithm which throws a dice a given number of time and count the
+number of time a certain number is received.
+
+==== IV - even numbers
+
+Write an algorithm which prints all the *even numbers* from 0 to a given number.
+
+==== V - perfect number
+
+Write an algorithm which verify if a given positive integer is a perfect number,
+meaning equal to the sum of his divisors (except himself).
+
+
+=== Resources
+
+* link:./conventions.adoc[conventions]
+* https://computersciencewiki.org/index.php/Iteration[loops]
+
+
+== Congrats
+
+Loops are great to simplify your life, their will be time when you have to do
+repetitive tasks and that's when you'll need them.
+
+image::https://media.giphy.com/media/Q0T9KzVwGQeNG/giphy.gif[]

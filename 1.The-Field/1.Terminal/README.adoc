@@ -1,0 +1,30 @@
+= Terminal
+
+Welcome to the *Terminal*.
+
+The terminal seems scary. It's a powerful place where you type written commands, and the mouse doesn't work. But worry not! Do each of the following challenges to learn how to survive within the command line.
+
+After which, if you want and have time between projects, you can check this
+link:./commands.adoc[list of commands] and file of useful command line
+link:./tricks.adoc[tricks].
+
+== Challenges
+
+* link:./rtfm.adoc[read the frickin' manual]
+* link:./navigation.adoc[navigation]
+* link:./file_operation.adoc[file operation]
+* link:./permissions.adoc[permissions]
+* link:./text_editor.adoc[text editor]
+* link:./package_manager.adoc[package manager]
+
+== Help
+
+If you have **Linux** (Ubuntu): good for you! Everything will work just fine.
+
+If you have a **Mac**: most commands will work fine, but for some you will need to search for a Mac-specific alternative. Google is your friend 😉
+
+If you have **Windows 10**: the easiest thing is to install the Ubuntu shell from the Windows Store, and most commands will work fine. Some might need Windows-specific alternatives. Google is your friend 😉
+
+If you have **Windows 7**: you should either update to Windows 10, or install the full Ubuntu Desktop Linux distribution.
+
+image::https://media.giphy.com/media/12XDYvMJNcmLgQ/giphy.gif[]

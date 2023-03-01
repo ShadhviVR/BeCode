@@ -1,0 +1,119 @@
+= Introduction
+
+// Links
+:docker: https://docker-curriculum.com/
+
+== Hypertext Preprocessor
+
+PHP is a *Backend* software, meaning that it runs on a _web server_, whereas
+the *Frontend* designates the software acting on the side of the _client_ (the
+_browser_).
+
+PHP enables the web server to *think before it speaks*. In Computer Sciences,
+_to think_ means to calculate, process information. _To speak_ means returning
+to the client (the browser from where originated the http request). PHP can
+create responses in most formats: very often html, but also JSON, xml, CSS,
+JavaScript, etc...
+
+
+== Why use PHP to return something else ?
+
+Because this allows you to create *dynamic* pages, rather than *static* ones.
+For instance, imagine you wanted to create a web page which says _Hello!_ to
+each of the 7 billion inhabitants of our lovely planet. If you had to create
+these pages statically, you would need to create 7 billion pages. 
+
+[source,html]
+----
+<html>
+	<head>...</head>
+	<body><h1>Hello John Doe!</h1></body>
+</html>
+----
+
+It would take years, wouldn't it? Moreover, by the time you'd be done making a
+thousand page, you would already have to delete some and add some more...
+
+That's not a good solution, But what if you could separate the _data_ from the
+_display markup_ (html)? You would fetch the data from a database and simply use
+one PHP file containing the markup and a variable receiving the person's name
+(via the url for example). That file would generate html containing a dynamic
+element.
+
+One way to do it would be to populate the variable via the URL, like this:  
+
+`http://<url>/index.php?name=John&lastname=Doe`
+
+[source,php]
+----
+<html>
+	<head>...</head>
+	<body><h1>Hello <?php echo $_GET['nom']; ?> <?php echo $_GET['lastname']; ?>!</h1></body>
+</html>
+----
+
+You could then just send to each person its personal URL and done! 
+
+`http://<url>/index.php?name=Barbara&lastname=Streisand`
+`http://<url>/index.php?name=Michael&lastname=Jackson`
+`http://<url>/index.php?name=Bart&lastname=Simpson`
+...
+
+There! A softer, warmer lofter Earth!
+
+
+== Setup
+
+=== Local Development Server 
+
+When we work on a project, we don't work directly on the machine that will serve
+the files of the website or application, because the slightest typo mistake
+would look bad and hurt the client's brand image (at the very least).
+
+So we develop on our own PC (_development environment_), until the files are
+ready for production (we then put them on the _production environment_).
+
+=== How to setup a local development environment?
+
+To develop in *PHP*, you need to install the _PHP suite_, to develop in *MySQL*,
+you need to install _MariaDB_, but you also need a third piece of software: a
+*web server*.
+
+The most common stacks are LAMP and LEMP: Linux + Apache (or nginx, pronounced
+"Engine X") + MySQL + PHP, but you can also find a Windows alternative: WAMP.
+I'll let you guess what the Mac OS X version's name is...
+
+Feel free to setup *apache*, *MySQL* and *PHP* directly on your machine.
+However, It can create a bit of a mess on your system, so an alternative and a
+useful technology worth learning would be to use *Docker*, a containerization
+engine.
+
+{docker}[Docker] is a tool that allows developers, sysadmins, etc. to easily
+deploy their applications in a sandbox (called container) to run on the host
+operating system (i.e. Linux).
+
+The key benefit of Docker is that it allows users to package an application with
+all of its dependencies into a standardized unit for software development.
+Unlike virtual machines, containers do not have the high overhead and hence
+enable more efficient usage of the underlying system and resources.
+
+We have a pre-made link:./docker_env/[environment] made with docker and
+docker-compose if you choose to set yourself up this way.
+
+You could also use http://phptester.net/[PHPTester] :)
+
+
+== Exercises
+
+Done? Then browse to `http://localhost/test/` 
+
+You should see "Hello!". Bravo! You just created your first PHP script.
+Give yourself a great loving hug, you deserve it.
+
+* Let's play a bit with this index.php file. Add an image of cats.
+* Write a second page in the same _test_ folder, call it `cats.php` and add a
+  bit of content and a link to each of the two files, so that you can navigate
+  from one to the other.  
+* Done? Well done, you just created a website cat-egorically nice !
+
+image::http://media0.giphy.com/media/nsMPhWK6bfxHq/giphy.gif[]

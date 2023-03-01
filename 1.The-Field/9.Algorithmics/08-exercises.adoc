@@ -1,0 +1,101 @@
+= More exercises
+
+// Links
+:leap_year: https://en.wikipedia.org/wiki/Leap_year
+
+Type of challenge: *consolidation* +
+Duration: *indefinite* +
+Team challenge: *solo*
+
+
+== Missions objectives
+
+At the end of this challenge you should have improved your:
+
+* logical thinking
+* fundamental concepts of programming
+
+
+== The mission
+
+In order to train your *logical thinking* you can try to complete the exercises
+below. To succeed you should only need the fundamental concepts we have seen so
+far (variables, conditions, loops, etc...), there are other structure in
+programming such as _classes_, but we won't work with them in pseudo code.
+
+NOTE: New exercises might pop up during or after the challenge, refer to your
+coach for more information.
+
+=== Exercises
+
+.Instructions
+* write your algorithm on paper
+* detail each and every step
+* indicate the types of used variables
+
+==== I - leap years
+
+Write a function which receives a year as parameter and returns _true_ if the
+received value is a {leap_year}[leap year].
+
+==== II - right and left
+
+Write two algorithm each receiving a sentence and a number _n_, one of them will
+return the _n_ first word and the second the _n_ last word.
+
+==== III - explain and translate
+
+Explain the algorithm below in a small paragraph with your word, then translate
+it into *golang*, *pascal* and *shell script*.
+
+[subs="quotes"]
+----
+*function* create_name_list(n) {
+	_array_ list_names = []
+	*for* I = 0 *until* _$n_ *do* {
+		input("Enter your firstname",name)
+		*add_value*(_$name_,__$list_names__)
+	}
+	*return* __$list_names__
+}
+----
+
+==== IV - multiplication table
+
+Write a function which receives a number and *prints* the ten first entry of its
+multiplication table.
+
+==== V - mirror number
+
+Write a function which receives a number and return its mirror number. (example:
+4209 -> 9024)
+
+==== VI - symmetrical array
+
+Write a function which receives an array of strings and returns _true_ if it's
+symmetrical, meaning if the first element is equal to the last, etc...
+
+==== VII - index of maximum
+
+Write a function which receives an array of integers and return the position of
+its biggest number.
+
+NOTE: You can't use a function like `indexof`.
+
+==== VIII - palindrome
+
+Write a function which receives either a number or a string and check if its a
+palindrome, meaning if its identical no matter the reading direction. (example:
+10201, civic)
+
+=== Resources
+
+* link:./conventions.adoc[conventions]
+
+
+== Congrats
+
+The most important lesson to learn from algorithmic is that *logic* is more
+important than syntax as it needs to be practiced.
+
+image::https://media.giphy.com/media/NEvPzZ8bd1V4Y/giphy.gif[]

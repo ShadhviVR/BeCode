@@ -1,0 +1,31 @@
+= Configuration
+
+== Git
+
+For a smoother use of git you should set it up properly. To do so you must,
+define your identity (name, email) and your text editor.
+
+* git config --global user.name "John Doe"
+* git config --global user.email "johndoe@example.com"
+* git config --global core.editor "vim"
+
+NOTE: Your identity is important to let everyone know who committed to the
+repository.
+
+=== Optional
+
+You might want to use an *ssh key* to avoid entering your password for each
+interaction with `git`. If so, follow this
+https://help.github.com/en/articles/connecting-to-github-with-ssh[guide].
+
+
+== Github
+
+While you are configuring, take the time to update your _Github_
+https://github.com/settings/profile[profile].
+
+
+== Resources
+
+* https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup[Git setup]
+* https://services.github.com/on-demand/intro-to-github/create-pull-request[Create pull request]

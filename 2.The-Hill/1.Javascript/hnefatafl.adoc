@@ -1,0 +1,57 @@
+= Hnefatafl
+
+// Links
+:hnefatafl: https://www.ancientgames.org/hnefatafl-tablut/
+:variants: https://en.wikipedia.org/wiki/Tafl_games#Tafl_variants
+
+Type of challenge: *consolidation* +
+Repository: *hnefatafl* +
+Team challenge: *solo*
+
+
+== Missions objectives
+
+At the end of this challenge you should have improved your:
+
+* *JavaScript* skills
+
+
+== The mission
+
+You have to make a website version of the {hnefatafl}[hnefatafl] board game. To
+do so try to think the *structure*, the *backend* (functionality) and the
+*frontend* (design) of your project before you start coding.
+
+At the very least your version of *hnefatafl* should:
+
+* allow movement of the pieces on the board
+* implement the _basic rules_ (piece capture, winning condition, etc...)
+* make it so that a piece cannot commit suicide
+
+Optionally it can:
+
+* use a two dimensional *array* for the board
+* implement different {variants}[boards]
+
+NOTE: The instructions below are meant to guide you not impose a way of doing
+things, what matters is the end result.
+
+.Instructions
+* create the repository
+* think the project through
+* write the backend (make it functional)
+* write the frontend (make it pretty)
+* implement both parts into a web page
+
+=== Resources
+
+* https://en.wikipedia.org/wiki/Tafl_games[wikipedia]
+* http://aagenielsen.dk/fetlar_rules_en.php[simplified rules]
+* http://www.lutanho.net/play/hnefatafl.html[example]
+
+
+== Congrats
+
+You coded a viking game, so you're a viking now. Let's go on raid !!!
+
+image::https://media.giphy.com/media/kakCpW3Q3IT4s/giphy.gif[]

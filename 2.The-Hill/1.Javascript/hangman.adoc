@@ -1,0 +1,58 @@
+= Hangman
+
+// Links
+:hangman: https://en.wikipedia.org/wiki/Hangman_(game)
+
+Type of challenge: *consolidation* +
+Repository: *hangman* +
+Team challenge: *solo*
+
+
+== Missions objectives
+
+At the end of this challenge you should have improved your:
+
+* *JavaScript* skills
+
+
+== The mission
+
+You have to make a website version of the {hangman}[hangman] word game. To do so
+try to think the *structure*, the *backend* (functionality) and the *frontend*
+(design) of your project before you start coding.
+
+At the very least your version of the *hangman* should:
+
+* propose an hidden word 
+* allow the selection of letters
+* verify if a selected letter belongs to the word
+* count the number of failure (lives)
+* check if it's a _game over_
+* check if the word as been found
+
+Optionally it can:
+
+* keep in memory all guessed letters
+* only let the player guess a letter once
+
+NOTE: The instructions below are meant to guide you not impose a way of doing
+things, what matters is the end result.
+
+.Instructions
+* create the repository
+* think the project through
+* write the backend (make it functional)
+* write the frontend (make it pretty)
+* implement both parts into a web page
+
+=== Resources
+
+* https://hangmanwordgame.com/?fca=1&success=0#/[example]
+
+
+== Congrats
+
+Well done, you just made a game. Working on small projects is actually one of
+the best way to better your skills, so keep coding.
+
+image::https://media.giphy.com/media/b7lp44pNiRqsU/giphy.gif[]

@@ -1,0 +1,82 @@
+= Exquisite corpse
+
+Type of challenge: *consolidation* +
+Duration: *1/2 day* +
+Team challenge: *4-5*
+
+
+== Missions objectives
+
+At the end of this challenge you should have improved your:
+
+* *MarkDown* skills
+* *Git* skills
+
+You should also be able to:
+
+* work in group with `git`
+
+
+== Requirements
+
+This briefing assumes that:
+
+* you have basic `git` knowledge
+* you have basic *MarkDown* knowledge
+
+
+== The mission
+
+Your challenge will be to write crazy stories (in markdown) with your group in a
+game of https://en.wikipedia.org/wiki/Exquisite_corpse[exquisite corpse]. All
+members of the team must create a repository called _exercise-exquisite-corpse_
+with a _README.md_ which will contain the game itself.
+
+*Each member of the team must create the repository, there will be four instance
+of the game, but the stories can/should be different.*
+
+=== Instructions
+
+.Initialisation
+* create the repository
+* initialize the _README.md_
+* give a title to your story
+* clone the repository
+* create a _development_ branch
+* go to that branch
+* write 3 lines of text to begin the story (use as much Markdown as possible)
+* commit/push the changes to the branch _development_
+* invite the other members of the group as contributors
+
+.Contributions
+* check a repository where you have been invited
+* clone said repository
+* list the existing branches
+* go to the branch  _development_
+* create a branch called _your-name_ from there
+* write 3 lines of text to begin the story (use as much Markdown as possible)
+* commit the changes to the branch _your-name_
+* merge your branch with _development_
+* push the branch _development_
+* do this for all members of the group
+
+.Versioning
+* go back to your repository when all your colleagues are done
+* merge _development_ with the branch _master_
+* make a tag of _master_ called _version-1_
+
+.Correction
+* create a new branch _corrections_ from _master_
+* correct all misspellings (if there are none add the mention _perfect_)
+* commit/push
+* merge with _master_
+* go to the branch _development_
+* update the branch _development_ by merging with _corrections_
+
+
+== Congrats
+
+Although a game this challenge tested your growing `git` and *MarkDown* skills,
+you are now one step closer to world domination... Or something like that.
+
+image::https://media.giphy.com/media/nrQnXb3W6iFDq/giphy.gif[]

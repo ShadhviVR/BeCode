@@ -1,0 +1,50 @@
+= Notepad
+
+Type of challenge: *consolidation* +
+Repository: *notepad* +
+Team challenge: *solo*
+
+
+== Missions objectives
+
+At the end of this challenge you should have improved your:
+
+* *JavaScript* skills
+
+
+== The mission
+
+You have to make a website version of a *notepad*. To do so try to think the
+*structure*, the *backend* (functionality) and the *frontend* (design) of your
+project before you start coding.
+
+At the very least your version of a *notepad* should:
+
+* allow you to write a note
+* allow for multiple notes
+
+Optionally it can:
+
+* implement a system of to-do linked to the notes
+
+NOTE: The instructions below are meant to guide you not impose a way of doing
+things, what matters is the end result.
+
+.Instructions
+* create the repository
+* think the project through
+* write the backend (make it functional)
+* write the frontend (make it pretty)
+* implement both parts into a web page
+
+=== Resources
+
+* https://shrib.com/#GzDy0P_NnDuhDs6pthSe[example]
+
+
+== Congrats
+
+Taking notes, we all do it, but differently... Hopefully, with you wonderful
+coding skills you can create a note taking application tailored to you need.
+
+image::https://media.giphy.com/media/ozf26DV8FqaCpkYt6n/giphy.gif[]

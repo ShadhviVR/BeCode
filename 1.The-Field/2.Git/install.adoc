@@ -1,0 +1,25 @@
+= Install *Git* on *Linux*
+
+*Most environment will be on _Ubuntu_*, if you use something else research how
+you can install *git* on your system.
+
+
+== Installation on *Ubuntu*
+
+https://help.ubuntu.com/community/UsingTheTerminal[Open a Terminal], then
+copy/paste each lines below and press enter (one at a time). You might be asked
+a password.
+
+[source,shell]
+----
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git
+----
+
+You can now use *Git*, congrats.
+
+
+== Resources
+
+http://en.wikipedia.org/wiki/List_of_Linux_distributions[List of Linux distributions]

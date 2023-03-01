@@ -1,0 +1,18 @@
+= Git
+
+Git is a versioning software. Concretely, it's an essential tool to collaborate
+and store all the details about code modifications on your repository.
+
+
+== Guides
+
+* link:./install.adoc[install]
+* link:./configuration.adoc[configuration]
+
+
+== Challenges
+
+* link:./training.adoc[training]
+* link:./exquisite_corpse.adoc[exquisite corpse]
+
+image::https://media.giphy.com/media/l2Sq4fHpeKTNQs6Zy/giphy.gif[]

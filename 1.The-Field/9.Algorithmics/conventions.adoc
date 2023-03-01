@@ -1,0 +1,153 @@
+= Algorithmic conventions
+
+== Comments
+
+----
+// this is a
+// multi lines
+// comment
+----
+
+
+== Operators
+
+.Calculus
+* `plus` or `+`
+* `minus` or `-`
+* `multiply` or `*`
+* `divide` or `/`
+* `modulo` or `mod`
+
+.Conditions
+* `equal to` or `==`
+* `greater than` or `>`
+* `greater than or equal to` or `>=`
+* `smaller than` or `<`
+* `smaller than or equal to` or `\<=`
+
+
+== Variables
+
+[subs="quotes"]
+----
+// To declare a variable you must first give its type then its name.
+
+// In case of a constant you must give the value on declaration.
+// The naming convention for constant is "CONSTANT_NAME".
+_constant_ NAME = "John Doe"
+
+// You can assign a value during or after the declaration.
+// The naming convention for variables is "variable_name".
+_integer_ nbr
+_character_ char = "c"
+
+// To call a variable you must prefix it with "$".
+_$nbr_ = 42
+----
+
+NOTE: A variable cannot hold the wrong type of data.
+
+
+== Conditions
+
+[subs="quotes"]
+----
+// Is statement
+*if* (condition) *then* {
+	// instructions
+} *else if* (condition) *then* {
+	// instructions
+} *else* {
+	// instructions
+}
+
+// Case of statement
+*in case* _$variable_ *equal* {
+	*first choice*:
+		// instructions
+	*second choice*:
+		// instructions
+	*default*:
+		// instructions
+}
+----
+
+
+== Loops
+
+[subs="quotes"]
+----
+// for loops with steps of one
+*for* _$variable_ equal to _number_ *until* _number_ *do* {
+	// instructions	
+}
+
+// for loop with custom steps
+*for* _$variable_ = _number_ *until* _number_ *by steps of* _number_ *do* {
+	// instructions	
+}
+
+
+// While statement
+*while* (condition) *do* {
+	// instructions
+}
+
+// Repeat until statement
+*repeat* {
+	// instructions
+} *until* (condition)
+----
+
+NOTE: In the case of a for loop *equal to* can be replaced by `=` as it's
+basically a variable assignment.
+
+
+== Arrays
+
+[subs="quotes"]
+----
+// Declare an array
+_array_ table = [value_0,value_1,value_2,etc...]
+
+// Change one of the value
+_$table_[_index_] = "new value"
+
+// Add a value
+*add_value*("new value",_$table_)
+
+// Remove a value
+*remove_value*(_$table_[index])
+----
+
+
+== Functions
+
+[subs="quotes"]
+----
+// Predefined functions
+*output*("example of output")
+*input*("desired input",_$variable_)
+*random*(number)
+*is_letter*(char)
+*is_number*(char)
+*is_lowercase*(char)
+*lowercase*(char)
+*is_uppercase*(char)
+*uppercase*(char)
+*typeof*(variable)
+*sub_string*(string,position,length)
+*position*(string,sub-string)
+*number*(string)
+*string*(number)
+
+// Special instruction
+*returns* "desired data to return"
+*break*
+*stop*
+
+// Custom functions
+*function* name(_parameters_) {
+	// instructions
+}
+----

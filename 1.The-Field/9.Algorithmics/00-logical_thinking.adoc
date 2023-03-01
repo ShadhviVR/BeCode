@@ -1,0 +1,38 @@
+= Logical thinking
+
+Type of challenge: *learning* +
+Team challenge: *solo*
+
+
+== Learning objectives
+
+At the end of this challenge you should have a basic understanding of:
+
+* programming logic
+* conditions
+* loops
+* array
+* functions
+
+
+== The mission
+
+Before you learn how to write *pseudo code* you have to complete the following
+mini games. They will develop your programming logic and allow you an easier
+time down the road.
+
+.Instructions
+* complete http://silentteacher.toxicode.fr/[silent teacher]
+* complete https://code.org/minecraft[minecraft]
+
+=== Optional
+
+* complete this https://studio.code.org/s/20-hour[extensive challenge]
+
+
+== Congrats
+
+Although it might feel weird to think algorithmically, in time it will become a
+second nature to break problems into their smallest parts.
+
+image::https://media.giphy.com/media/iXTrbbYMQBCMM/giphy.gif[]

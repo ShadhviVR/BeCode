@@ -1,0 +1,116 @@
+= Variables
+
+// links
+:var: https://en.wikipedia.org/wiki/Variable_(computer_science)
+:mod: https://en.wikipedia.org/wiki/Modulo_operation
+:const: https://en.wikipedia.org/wiki/Constant_(computer_programming)
+:int: https://en.wikipedia.org/wiki/Integer
+:float: https://en.wikipedia.org/wiki/Floating-point_arithmetic
+:char: https://en.wikipedia.org/wiki/Character_(computing)
+:bool: https://en.wikipedia.org/wiki/Boolean_data_type
+:str: https://en.wikipedia.org/wiki/String_(computer_science)
+:array: https://en.wikipedia.org/wiki/Array_data_type
+:concat: https://en.wikipedia.org/wiki/Concatenation
+:oper: https://computersciencewiki.org/index.php/Operators
+
+Type of challenge: *learning* +
+Team challenge: *solo*
+
+
+== Learning objectives
+
+At the end of this challenge you should:
+
+* understand the concept of variables
+* be able to declare variables
+* be able to assign value to variables
+
+
+== The mission
+
+This challenge will have you play around with the concept of {var}[variables],
+complete the exercises down below after you've read the explanations.
+
+A variable is like a box holding a value, it can be called upon whenever needed
+and changed after assignment (except for _constant_). It also has a type which
+defines the kinds of data you can store inside.
+
+.Types of variables
+* {const}[constant]: store a value of any types that cannot change
+* {int}[integer]: store integers
+* {float}[float]: store real numbers (ex: 3.14159)
+* {char}[character]: store one character
+* {bool}[boolean]: store either _true_ or _false_
+* {str}[string]: store a sequence of character
+* {array}[array]: store an array of values
+
+Programming languages usually have some predefined functions such as *output*
+and *input* allowing the code to print something to the screen or ask for a user
+input.
+
+Furthermore, you should also research {oper}[operators] and how to do operation
+within your code.
+
+[title="Example",subs="quotes"]
+----
+// This algorithm will output "Hi my name is John Doe and I am 42."
+_constant_ NAME = "John Doe"
+_integer_ age
+
+*input*("What's your age?",$age)
+*output*("Hi my name is _$NAME_ and I am _$age_.")
+
+// This algorithm will output "10".
+_integer_ nbr = 5
+*output*($nbr * 2)
+----
+
+=== Exercises
+
+.Instructions
+* write your algorithm on paper
+* detail each and every step
+* indicates the types of used variables
+* One good, try to write some code!
+
+==== I - calculate
+
+Write an algorithm which calculates:
+
+* the *sum* of two chosen number
+* the *division* of two chosen number
+* the {mod}[*modulo*] of two inputed numbers
+
+==== II - concatenate sentence
+
+Write an algorithm which {concat}[*concatenates*] two phrases together.
+
+==== III - VAT
+
+Write an algorithm which receives a *price without VAT* and returns the *price
+with VAT* with a *rate of 21%*.
+
+==== IV - surface of a circle
+
+Write an algorithm which receives the *radius of a circle* and calculate its
+*surface*.
+
+==== V - conversion of time to seconds
+
+Write an algorithm which receives the *time of day* in three different numbers,
+the hour, the minutes and the seconds and returns the *number of seconds* since
+midnight.
+
+
+=== Resources
+
+* link:./conventions.adoc[conventions]
+* https://computersciencewiki.org/index.php/Variables[variables]
+
+
+== Congrats
+
+Variables, variables everywhere, they will soon become your best friend or maybe
+your worst enemy, either way you're gonna need them.
+
+image::https://media.giphy.com/media/fNqXQmBR3aYLK/giphy.gif[]

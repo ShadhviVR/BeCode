@@ -1,0 +1,31 @@
+= JavaScript
+
+Now that you have done some basic algorithmic, you are ready to play around with
+your first *programming language*. Although, JavaScript by itself is meant as a
+complement of HTML and CSS, you can do some pretty cool things with it.
+
+
+== Challenges
+
+* link:./exercises/[00 - exercises]  
+* link:./javascript-data-visualisation/[01 - Data visualisation]  
+
+
+== Team work
+
+* link:./cookieClicker.md[CookieClicker]
+
+=== Optional
+
+* link:./hangman.adoc[hangman]
+* link:./hnefatafl.adoc[hnefatafl]
+* link:./notepad.adoc[notepad] 
+* link:./rpg-project[RPG]
+* link:./js-calculator[Calculator] 
+
+
+== Resources
+
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript[documentation]
+
+image::https://media.giphy.com/media/YFkpsHWCsNUUo/giphy.gif[]

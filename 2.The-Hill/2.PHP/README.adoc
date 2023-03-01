@@ -1,0 +1,31 @@
+= PHP
+
+*PHP* is a backend programming language which allow for dynamic pages, follow
+this link:./introduction.adoc[introduction] for more information.
+
+This learning track is made in BeCode.
+Feel free to go to OpenClassroom, Codecademy, Sololoearn... As long as you meet the following learning objectives.
+
+
+== Challenges
+
+* link:./variables.md[00 - variables]
+* link:./conditions.md[01 - conditions]
+* link:./quizz.md[02 - quizz]
+* link:./array.md[03 - arrays]
+* link:./loop.md[04 - loops]
+* link:./functions.md[05 - functions]
+* link:./form.md[06 - How to manage a form correctly in PHP]
+
+== Project
+* link:./the-dream.md[01 - The dream]
+* link:./Restaurant2.0.md[02 - Restaurant 2.0]
+
+
+== Resources
+
+* https://www.php.net/manual/en/[manual]
+* http://phptester.net/[PHPTester]
+
+image::https://media.giphy.com/media/g4jDE1JnpUNaw/giphy.gif[]
+

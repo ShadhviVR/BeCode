@@ -1,0 +1,50 @@
+= Git training
+
+Type of challenge: *learning* +
+Duration: *1 day* +
+Team challenge: *solo*
+
+
+== Learning objectives
+
+At the end of this challenge you should be able to:
+
+* clone a repository
+* add/commit with `git`
+* push with `git`
+* understand `git` branch system
+
+
+== The mission
+
+Complete some guides and tutorials on `git` to learn how to use it. The
+instructions below are to get the basics, but you can and probably should
+explore the _resources section_ due to the importance of the tool.
+
+.Instructions
+* read this https://github.com/becodeorg/BeCode/wiki/Git-&-Github[introduction]
+* begin by doing this https://try.github.io[15 minutes to Learn Git] course
+* follow up by http://learngitbranching.js.org[Git branching]
+
+=== Optional
+
+* complete this https://www.codeschool.com/learn/git[course]
+* read this article on https://githowto.com/resolving_conflicts[Git conflict]
+
+=== Resources
+
+* http://rogerdudler.github.io/git-guide/index.fr.html[Git little guide]
+* https://www.codecademy.com/courses/learn-git/lessons/git-workflow/exercises/hello-git[Codecademy]
+* http://git-scm.com/book/en/v2[Pro Book]
+* https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud[Bitbucket tutorial]
+* https://fr.atlassian.com/git/tutorials[Become a git guru]
+* https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf[memory aid]
+* https://github.com/git-tips/tips[tips]
+
+
+== Congrats
+
+If there is one tool a modern developer needs, apart from a text editor, it's
+`git`. You will use it on almost all project, so keep learning.
+
+image::https://media.giphy.com/media/cFkiFMDg3iFoI/giphy.gif[]

@@ -1,0 +1,54 @@
+= Algorithmic
+
+// links
+:algo: https://en.wikipedia.org/wiki/Algorithm
+:pseudo_code: https://en.wikipedia.org/wiki/Pseudocode
+:flowchart: https://en.wikipedia.org/wiki/Flowchart
+
+Computers are powerful machines able to calculate and produce all kinds of
+output amazingly fast. However, they are not (yet) able to imagine and create by
+themselves, that's were programmers come into play.
+
+Programming is essentially writing *sets of instructions* that a computer can
+understand to *create* a desired program, making the programmer a linguist of
+sort. Yet, for the computer to understand you, you have to think like a
+computer, you have to think {algo}[algorithmically].
+
+It can be difficult to translate human thinking into computer logic. To help
+with that you can write your algorithm in {pseudo_code}[pseudo code], a
+higher-level language closer to human speech.
+
+Writing your algorithm in pseudo code before writing in actual code allows for a
+language-agnostic approach were *what matters is the logic not the syntax*.
+
+There is no set-in-stone way to write pseudo code, as long as the algorithm is
+clear. Still, for easier communication between everyone you could write yours
+following this sets of link:./conventions.adoc[conventions].
+
+NOTE: You could also represent your algorithm with {flowchart}[flowchart].
+
+
+== Challenges
+
+* link:./00-logical_thinking.adoc[00 - logical thinking]
+* link:./01-variables.adoc[01 - variables]
+* link:./02-conditions.adoc[02 - conditions]
+* link:./03-loops.adoc[03 - loops]
+* link:./04-arrays.adoc[04 - arrays]
+* link:./05-functions.adoc[05 - functions]
+* link:./06-strings.adoc[06 - strings]
+* link:./07-trial.adoc[07 - trial]
+* link:./08-exercises.adoc[08 - exercises]
+* link:./conventions.adoc[conventions]
+
+
+
+== Resources
+
+* http://cours.pise.info/algo/index.htm[Cours d'Algorithmique (fr)]
+* https://www.codewars.com/[Codewars] <<<---- Really cool!
+* https://www.codingame.com/[CodinGame]
+* https://leekwars.com/[Leek Wars]
+* https://terminal.c1games.com/[Terminal]
+
+image::https://media.giphy.com/media/3o6Yg4GUVgIUg3bf7W/giphy.gif[]
